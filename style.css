@@ -1,0 +1,24 @@
+body{
+    background-color: #D2B48C;
+    text-align: center;
+}
+
+div{
+    background-color: #6A3D00;
+}
+a{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 20px;
+}
+a:hover{
+    text-decoration:underline;
+}
+hr{
+    outline: black;
+}
+img{
+    height: 400px;
+    width: 500px;
+}
