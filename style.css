@@ -1,56 +1,25 @@
 body{
-    background-color: #F5F5DC; /*  #F9EEC3*/
+    background-color: #EBBC83; /*  #F9EEC3*/
     font-size: 18px;
     
 }
 
 div{
-    background-color: #d4cdb2; /* C5A57A */
-    text-align: center;
+    background-color: #F9ECC6; /* C5A57A */
 }
-a{
-    color:#000000;
-    text-decoration: none;
-    font-size: 25px;
-    margin-left: 20px;
-}
-a:hover{
-    text-decoration:underline;
-}
+
 hr{
     outline: black;
 }
 img{
     height: 400px;
     width: 500px;
+    border: solid 2px #000000;
+
 }
 
-h1{
-    text-align: center;
-    padding: 0px 400px 0px 400px;
+h1,h2,h3,h4,h5,h6,p{
     font-family: "Londrina Shadow", sans-serif;
-
-}
-h2{
-    padding: 0px 400px 0px 400px;
-
-}
-
-h3{
-    padding: 0px 400px 0px 400px;
-
-}
-h4{
-    padding: 20px 400px 0px 400px;
-
-}
-
-p{
-    padding: 0px 400px 0px 400px;
-}
-
-nav{
-    background-color: #F9EEC3;   
 }
 
 #contact{
@@ -75,6 +44,13 @@ nav{
   font-weight: 700;
   font-style: normal;
 }
-  
+
+table,td th{
+    border: 1px solid #000000;
+    font-size: 20px;
+    font-family: "Londrina Shadow", sans-serif;
+
+}
+
 
   
