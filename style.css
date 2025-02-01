@@ -62,5 +62,11 @@ table,td th{
 .Tcontents:active{
     color:#EBBC83;
 }
+.websiteTitle{
+    color: red;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px rgba(0,0,0, 0.3);
+}
 
   
