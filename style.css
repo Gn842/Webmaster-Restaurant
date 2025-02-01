@@ -72,5 +72,9 @@ nav:a:active{
     color: black;
 }
 
-
+.FooterNav {
+    color: #000; 
+    text-decoration: none; 
+    margin: 0 10px;
+}
   
