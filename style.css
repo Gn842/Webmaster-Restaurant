@@ -52,21 +52,25 @@ table,td th{
 
 }
 .Tcontents{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 .Tcontents:hover{
-    color:wheat;
+    color:#6B8E23;
     font-size: 15px;
 }
 .Tcontents:active{
-    color:#EBBC83;
+    color:grey;
 }
 .websiteTitle{
-    color: red;
+    color: #6B8E23;
     font-size: 4rem;
     font-weight: bold;
     text-shadow: 3px 3px 10px rgba(0,0,0, 0.3);
 }
+nav:a:active{
+    color: black;
+}
+
 
   
