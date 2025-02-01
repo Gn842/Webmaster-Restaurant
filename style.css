@@ -51,6 +51,16 @@ table,td th{
     font-family: "Londrina Shadow", sans-serif;
 
 }
-
+.Tcontents{
+    color: white;
+    text-decoration: none;
+}
+.Tcontents:hover{
+    color:wheat;
+    font-size: 15px;
+}
+.Tcontents:active{
+    color:#EBBC83;
+}
 
   
