@@ -77,4 +77,50 @@ nav:a:active{
     text-decoration: none; 
     margin: 0 10px;
 }
-  
+.email{
+    border: 5px solid white;
+    background: rgb(213, 208, 208);
+    color: black;
+}
+.name{
+    border: 5px solid white;
+    background: rgb(213, 208, 208);
+    color: black;
+}
+
+.message{
+    border: 5px solid white;
+    background: rgb(213, 208, 208);
+    color: black;
+}
+.submit{
+    background: white;
+    color: black;
+    border: 15px white solid;
+    border-radius: 20%;
+    font-size: 16px;
+  }
+.submit:hover{
+    color: grey;
+    font-size: 12px;
+}
+.submit:active{
+    color: red;
+    font-size: 14px;
+}
+.page-content {
+	background-color: #fef9e7;
+	margin: -50px auto 0;
+	max-width: 1000px;
+	padding-top: 2em;
+	column-gap: 2em;
+	-webkit-box-shadow: 0 25px 40px 0 rgba(0, 0, 0, 0.05);
+	box-shadow: 0 25px 40px 0 rgba(0, 0, 0, 0.05);
+	padding-bottom: 2em;
+	padding-right: 3em;
+	padding-left: 3em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+}

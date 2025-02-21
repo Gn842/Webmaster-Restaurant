@@ -20,9 +20,9 @@
 
 </head>
 <div>
-    <nav>
+    <nav class="justify-content-center">
         <ul class="nav nav-tabs" style="background-color: #fff3e6;">
-            <li class="nav-item"><a class= "nav-link active" href="index.html" style="color: black;">Homepage</a></li>
+            <li class="nav-item"><a class= "nav-link" href="index.html" style="color: black;">Homepage</a></li>
             <li class="nav-item" ><a class= "nav-link" href="Menu.html" style="color: black;">Menu</a></li>
             <li class="nav-item"><a class= "nav-link " href="Resource.html" style="color: black;">Reference Page</a></li>
             <li class="nav-item"><a class="nav-link" href="About.html" style="color: black;">About Us</a></li>
@@ -32,15 +32,21 @@
 <body>
     <div class="text-center" style="background-color: #FFF8E1;">
         <br><br><br><br><br><br>
-        <h2>Send us a Message!</h2>
-        <form >
-            <label for="email">Email:</label><br>
-            <input type="text" id="email" name="email"><br>
-            <label for="messaging">Message:</label><br>
-           <textarea name="messaging" id="messaging" cols="40"></textarea><br>
-            <input type="submit" value="Submit">
-            <br><br><br><br><br><br><br><br><br><br>
-        </form>
+        <div class="page-content">
+            <h1 class="elius-regular">CONTACT US</h1>
+        <div>
+            <form class="delius-regular" style="border: dotted 4px black; background:  #fefee6; color: black;"> <br>
+                <label for="email">Email: </label>
+                <input class="email" type="email" id="email" name="email" placeholder="Email"><br><hr><br>
+                <label for="name">Name: </label>
+                <input class= "name"type="text" id="name" name="name"  placeholder="Full Name"><br><hr>
+                <label for="message">Message</label><br>
+                <textarea class="message" id="message" placeholder="Type Your Message Here" name="message" rows="3" cols="40"></textarea><hr><br>
+                <input class="submit" type="submit" value="Submit">
+            <br><br></form>
+            
+        </div>
+        </div>
     </div>
     <footer>
         <nav style="background-color: #FFF8E1; text-align: center; padding: 10px;">
